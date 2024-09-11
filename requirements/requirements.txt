@@ -45,6 +45,7 @@ httpcore==1.0.5
 httpx==0.27.0
     # via
     #   anthropic
+    #   langsmith
     #   openai
 huggingface-hub==0.23.4
     # via tokenizers
@@ -65,14 +66,14 @@ jsonpointer==3.0.0
     # via jsonpatch
 langchain-anthropic==0.1.23
     # via -r requirements/requirements.in
-langchain-core==0.2.35
+langchain-core==0.2.39
     # via
     #   -r requirements/requirements.in
     #   langchain-anthropic
     #   langchain-openai
 langchain-openai==0.1.23
     # via -r requirements/requirements.in
-langsmith==0.1.82
+langsmith==0.1.117
     # via langchain-core
 loguru==0.7.2
     # via -r requirements/requirements.in
