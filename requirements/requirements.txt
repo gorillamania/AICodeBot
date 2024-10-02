@@ -88,7 +88,7 @@ packaging==24.1
     # via
     #   huggingface-hub
     #   langchain-core
-prompt-toolkit==3.0.47
+prompt-toolkit==3.0.48
     # via -r requirements/requirements.in
 pydantic==2.8.0
     # via
